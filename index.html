@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/c8e4d183c2.js"
+      crossorigin="anonymous"></script>
   </head>
 
   <body>
@@ -55,8 +59,9 @@
           </nav>
         </div>
       </div>
+
       <header>
-        <div class="container header__container">
+        <div class="header__container">
           <div class="row header__row">
             <div class="header__description">
               <h1 class="header__title">
@@ -68,18 +73,23 @@
                 modualr components with a variety of pages and components.
               </p>
               <div class="header__input--wrapper">
-                <input class="header__input" type="email" placeholder="Your E-mail Address" />
+                <input
+                  class="header__input"
+                  type="email"
+                  placeholder="Your E-mail Address" />
                 <button class="btn header__btn">Get Started</button>
               </div>
-              <div class="header__description--img">
+              <div class="header__description--wrapper">
                 <h4 class="header__subtitle">OUR TRUSTED CUSTOMERS</h4>
                 <img
+                  class="header__description--img"
                   src="./assets/customers-logo-strip.680ac7c2e8ae28161d2c.png"
                   alt="" />
               </div>
             </div>
             <figure class="header__img--wrapper">
               <img
+                class="header__img"
                 src="./assets/design-illustration-2.6da6a00b20c07c4a9b65d1870679e1b8.svg"
                 alt="" />
             </figure>
@@ -89,9 +99,221 @@
     </section>
 
     <main>
-      <section>
-        <div class="container">
-          <div class="row"></div>
+      <section id="features">
+        <div class="section__container">
+          <div class="row section__row">
+            <div class="section__title--wrapper">
+              <h5 class="section__title--primary">FEATURES</h5>
+              <h1 class="section__subtitle--primary">
+                We have Amazing <span class="text--purple">Service.</span>
+              </h1>
+              <p class="section__subtitle--para--primary">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+            <div class="section__services--grid">
+              <div class="section__services--wrapper">
+                <div class="section__service">
+                  <img
+                    src="./assets/securebadge.svg"
+                    alt=""
+                    class="section__services--img" />
+                  <h2 class="section__subtitle">Secure</h2>
+                  <p class="section__services--para">
+                    We strictly only deal with vendors that provide top notch
+                    security.
+                  </p>
+                </div>
+                <div class="section__service">
+                  <img
+                    src="./assets/support-icon.svg"
+                    alt=""
+                    class="section__services--img" />
+                  <h2 class="section__subtitle">24/7</h2>
+                  <p class="section__services--para">
+                    Lorem ipsum donor amet siti ceali ut enim ad minim veniam,
+                    quis nostrud.
+                  </p>
+                </div>
+                <div class="section__service">
+                  <img
+                    src="./assets/customize-icon.367468c90fd796009b97fbfba67b2c6a.svg"
+                    alt=""
+                    class="section__services--img" />
+                  <h2 class="section__subtitle">Customizable</h2>
+                  <p class="section__services--para">
+                    Lorem ipsum donor amet siti ceali ut enim ad minim veniam,
+                    quis nostrud.
+                  </p>
+                </div>
+                <div class="section__service">
+                  <img
+                    src="./assets/reliable-icon.1367510a8f0a1bec76dc425d25f92f43.svg"
+                    alt=""
+                    class="section__services--img" />
+                  <h2 class="section__subtitle">Reliable</h2>
+                  <p class="section__services--para">
+                    Lorem ipsum donor amet siti ceali ut enim ad minim veniam,
+                    quis nostrud.
+                  </p>
+                </div>
+                <div class="section__service">
+                  <img
+                    src="./assets/fast-icon.dbb971a73d4805d2fc3bcdacdb55beba.svg"
+                    alt=""
+                    class="section__services--img" />
+                  <h2 class="section__subtitle">Fast</h2>
+                  <p class="section__services--para">
+                    Lorem ipsum donor amet siti ceali ut enim ad minim veniam,
+                    quis nostrud.
+                  </p>
+                </div>
+                <div class="section__service">
+                  <img
+                    src="./assets/simple-icon.673b7e1750b2a4ef32907fc164828d00.svg"
+                    alt=""
+                    class="section__services--img" />
+                  <h2 class="section__subtitle">Easy</h2>
+                  <p class="section__services--para">
+                    Lorem ipsum donor amet siti ceali ut enim ad minim veniam,
+                    quis nostrud.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="quality">
+        <div class="section__container">
+          <div class="row section__row">
+            <div class="section__title--wrapper">
+              <h5 class="section__title">QUALITY WORK</h5>
+              <h1 class="section__subtitle">
+                Designed & Developed by
+                <span class="text--purple">Professionals.</span>
+              </h1>
+              <p class="section__subtitle--para--secondary">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
+            <button class="btn">Learn More</button>
+            <figure class="section__img--wrapper">
+              <img
+                src="./assets/hero-screenshot-1.40a097b525c2f8c9808e.png"
+                alt=""
+                class="section__img--screenshot" />
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section id="steps">
+        <div class="section__container">
+          <div class="row section__row">
+            <figure class="section__img--wrapper">
+              <img
+                src="./assets/hero-screenshot-2.241aac1fbc66db29d873.png"
+                alt=""
+                class="section__img--screenshot" />
+            </figure>
+            <div class="section__title--wrapper">
+              <h5 class="section__title">STEPS</h5>
+              <h1 class="section__subtitle">
+                Easy to <span class="text--purple">Get Started.</span>
+              </h1>
+            </div>
+            <div class="section__steps--wrapper">
+              <div class="section__step--num">01</div>
+              <p class="step__subtitle">Register</p>
+              <p class="section__para">
+                Create an account with us using Google or Facebook.
+              </p>
+            </div>
+            <div class="section__steps--wrapper">
+              <div class="section__step--num">02</div>
+              <p class="step__subtitle">Download</p>
+              <p class="section__para">
+                Browse and Download the template that you like from the
+                marketplace.
+              </p>
+            </div>
+            <div class="section__steps--wrapper">
+              <div class="section__step--num">03</div>
+              <p class="step__subtitle">Run</p>
+              <p class="section__para">
+                Follow the instructions to setup and customize the template to
+                your needs.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="values">
+        <div class="section__container">
+          <div class="row section__row">
+            <div class="section__title--wrapper">
+              <h5 class="section__title">VALUES</h5>
+              <h1 class="section__subtitle">
+                We Always Abide by Our
+                <span class="text--purple">Principles.</span>
+              </h1>
+              <p class="section__subtitle--para--secondary">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
+            <div class="section__services--wrapper">
+              <div class="section__service">
+                <i class="feather-24" data-feather="dollar-sign"></i>
+                <h2 class="section__subtitle">Affordable</h2>
+                <p class="section__services--para">
+                  We promise to offer you the best rate we can - at par with the
+                  industry standard.
+                </p>
+              </div>
+              <div class="section__service">
+                <i class="feather-24" data-feather="briefcase"></i>
+                <h2 class="section__subtitle">Professionalism</h2>
+                <p class="section__services--para">
+                  Lorem ipsum donor amet siti ceali ut enim ad minim veniam,
+                  quis nostrud.
+                </p>
+              </div>
+            </div>
+            <button class="btn">Learn More</button>
+            <figure class="section__img--wrapper">
+              <img
+                src="./assets/prototype-illustration.21bc4b3f612a2f257c3d361067582485.svg"
+                alt=""
+                class="section__img--screenshot" />
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section id="pricing">
+        <div class="section__container">
+          <div class="row section__row">
+            <div class="section__title--wrapper">
+              <h5 class="section__title--primary">PRICING</h5>
+              <h1 class="section__subtitle--primary">
+                Reasonable & Flexible <span class="text--purple">Plans.</span>
+              </h1>
+              <p class="section__subtitle--para--primary">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
     </main>
